@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(48, 48, 48);
+  font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.start {
+  background-image: url("netflixtop.jpg");
+  color: white;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.start .topalign {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.start .righttop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start .righttop div select{
+
+    height: 30px;
+    width: 80px;
+}
+
+.start .righttop button {
+    background-color: red;
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+}
+
+.start .righttop div {
+    margin-right: 20px;
+}
+
+.start .topheader {
+  width: 96%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+  background-image: linear-gradient(rgb(6, 6, 6), transparent);
+}
+
+.start .bottomradiant {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(transparent,rgb(6, 6, 6));
+}
+
+.start .topheader img {
+    width: 150px;
+}
+.start .texttop {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+.start .texttop button {
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+
+}
+
+.start .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+.start .email input {
+    height: 45px;
+    width: 400px;
+}
+
+
+.section-1 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.section-1 .child {
+  text-align: center;
+  padding: 10% 7%;
+  color: white;
+}
+
+.section-2 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.section-2 .child {
+  color: white;
+  padding: 10% 7%;
+}
+
+.section-3 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.section-3 .child {
+  text-align: center;
+  align-items: center;
+  padding: 10% 7%;
+}
+
+.section-3 img {
+  width: 50%;
+}
+
+.section-4 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+
+.section-4 img {
+  width: 50%;
+}
+
+.section-4 .child {
+  padding: 10% 8%;
+}
+
+.section-5 {
+  margin-top: 1%;
+  background-color: black;
+  color: white;
+}
+
+.section-5 .bot {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0% 8% 8%;
+}
+
+.section-5 .child {
+  text-align: center;
+  padding-top: 6%;
+}
+
+.section-5 .c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+  background-color: rgb(61, 60, 60);
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  padding: 1% 2%;
+  margin-left: 100px;
+}
+
+.section-5 .end {
+  text-align: center;
+  align-items: center;
+}
+
+.section-5 button {
+  background-color: red;
+  color: white;
+}
+
+.section-5 .end .email {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.section-5 .email input {
+  height: 45px;
+  width: 400px;
+}
+
+.last {
+    margin-top: 1%;
+  background-color: black;
+  color: white;
+  padding: 10px 6%;
+  height: 100%;
+}
+
+.last .links .link1 a {
+  text-decoration: none;
+  color: gray;
+}
+.last .links .link2 a {
+  text-decoration: none;
+  color: gray;
+}
+.last .links .link3 a {
+  text-decoration: none;
+  color: gray;
+}
+.last .links .link4 a {
+  text-decoration: none;
+  color: gray;
+}
+
+.last .links {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+select {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 1% 2%;
+}

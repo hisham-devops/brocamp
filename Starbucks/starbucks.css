@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.start {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  box-shadow: 1px 1px 5px rgb(225, 225, 225);
+  padding: 0 2%;
+}
+
+.start img {
+  width: 50px;
+}
+
+.start .child {
+  display: flex;
+  align-items: center;
+}
+
+.start .child a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.start .child a:hover {
+  color: #00754a;
+}
+.start .child a i {
+  padding: 0 5px;
+}
+.start .child button {
+  margin: 10px;
+  cursor: pointer;
+}
+.start .child button:nth-child(2) {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 35px;
+  width: 80px;
+}
+.start .child button:nth-child(3) {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 35px;
+  width: 80px;
+}
+.start .child button:nth-child(2):hover {
+  background-color: rgb(239, 238, 238);
+}
+
+.start .child button:nth-child(3):hover {
+  background-color: rgb(81, 80, 80);
+}
+
+.start .child img {
+  cursor: pointer;
+}
+
+.section-1 {
+  background-color: #d4e9e2;
+  display: flex;
+  align-items: center;
+  margin: 2% 0;
+}
+.section-1 .child {
+  padding: 0 2%;
+  color: #013b28;
+  width: 50%;
+  padding: 2%;
+}
+
+.section-1 .child h3 {
+  font-size: 25px;
+  width: 100%;
+  letter-spacing: 1px;
+  margin: 0%;
+}
+
+.section-1 .child h4 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 0%;
+}
+
+.section-1 ul li {
+  letter-spacing: 1px;
+  padding: 0 4px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.section-1 img {
+  width: 50%;
+}
+
+.section-1 .child button {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 35px;
+  width: 120px;
+  color: black;
+  background-color: #d4e9e2;
+  font-weight: 600;
+}
+
+.section-1 .child button:hover {
+  background-color: #dfdfdf;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  background-color: #00754a;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  margin: 2% 0;
+}
+.section-2 .child {
+  width: 50%;
+}
+
+.section-2 img {
+  width: 50%;
+}
+
+.section-2 .child h3 {
+  font-size: 50px;
+}
+
+.section-2 button {
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #00754a;
+  color: white;
+  width: 120px;
+  height: 35px;
+}
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  background-color: #00754a;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.section-3 .child {
+  width: 50%;
+}
+
+.section-3 button {
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #00754a;
+  color: white;
+  width: 120px;
+  height: 35px;
+}
+
+.section-3 img {
+  width: 50%;
+}
+
+.section-3 .child h3 {
+  font-size: 50px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00754a;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin: 2% 0;
+}
+.section-4 img {
+  width: 50%;
+}
+
+.section-4 button {
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #00754a;
+  color: white;
+  width: 120px;
+  height: 35px;
+}
+
+.section-4 .child {
+  width: 50%;
+}
+.section-4 .child h3 {
+  font-size: 50px;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #00754a;
+  color: white;
+  margin: 2% 0;
+}
+
+.section-5 img {
+  width: 50%;
+}
+
+.section-5 .child {
+  width: 50%;
+}
+
+.section-5 .child h3 {
+  font-size: 50px;
+}
+
+.section-5 button {
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #00754a;
+  color: white;
+  width: 120px;
+  height: 35px;
+}
+
+.endpara {
+  padding: 1% 0;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid rgb(241, 237, 237);
+  box-shadow: -1px -1px 5px rgb(209, 208, 208);
+  padding: 1% 0;
+}
+
+.endtable td {
+  padding: 0 30px;
+
+}
+
+.endtable th {
+  padding: 10px 30px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.endtable a {
+  text-decoration: none;
+}
+
+.endtable td a {
+  color: rgb(159, 156, 156);
+  font: weight 200;
+}
+
+.endtable td a:hover {
+  color: black;
+}
+
+.end a {
+  text-decoration: none;
+  color: black;
+}
+
+.end {
+  padding: 1% 0;
+  margin: 0 2%;
+  border-top: 1px solid rgb(203, 199, 199);
+}
