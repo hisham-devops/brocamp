@@ -1,0 +1,56 @@
+.header {
+  letter-spacing: 2px;
+}
+
+.header a:hover{
+  color: green !important; 
+}
+
+.sec1 {
+  background-color: #d50032;
+}
+
+
+.sec2 {
+  background-color: #d50032;
+}
+
+.sec2 button {
+  background-color: #d50032 !important;
+}
+
+
+.sec3 {
+  background-color: #d50032;
+}
+
+.sec3 button {
+  background-color: #d50032 !important;
+}
+
+.sec4 {
+  background-color: #00b388;
+}
+
+.sec4 button {
+  background-color: #00b388;
+}
+
+.sec5 {
+ background-color:  #1e3932;
+ font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.sec5 button {
+  background-color: #1e3932;
+}
+
+.sec6 {
+  background-color: #d50032;
+  font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.sec6 button {
+  background-color: #d50032;
+  align-content: center;
+}
